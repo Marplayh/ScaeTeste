@@ -1,0 +1,144 @@
+.cliente-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 80%;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .fixed-form{
+    overflow: hidden;
+  }
+  .title-form{
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  
+  .cliente-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cliente-form-container label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #3f3b3b;
+    font-weight: 500;
+  }
+  .genero-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .genero-box span{
+    color: white;
+  }
+  .genero-box div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .genero{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 15px;
+    gap: 5px;
+  }
+
+  .genero input:hover{
+    cursor: pointer;
+  }
+
+  
+  
+  .cliente-form-container input[type="text"],
+  .cliente-form-container input[type="email"],
+  .cliente-form-container input[type="date"] {
+    align-self: center;
+    width: 90%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #1f2025;
+    background-color: #fff;
+    font-size: 15px;
+    color: black;
+  }
+
+
+
+  .cliente-form-container input[type="text"]:focus,
+  .cliente-form-container input[type="email"]:focus,
+  .cliente-form-container input[type="date"]:focus{
+    outline: none;
+    border: 0.5px solid #44454d;
+    box-shadow: 0 0 0 0.1rem #44454d;
+  }
+
+  .input-error {
+    border: 2px solid red;
+}
+
+
+
+  
+  .cliente-form-container div {
+    margin-bottom: 10px;
+  }
+  
+  .container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .cliente-form-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eb392c;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+  }
+  .cliente-form-container button:hover{
+    background-color: #d32316;
+  }
+  
+  .cliente-form-container button[type="submit"] {
+    background-color: #28a745;
+  }
+
+  .cliente-form-container button[type="submit"]:hover {
+    background-color: #299141;
+  }
+
+  .success{
+    align-self: center;
+    font-size: 10px;
+    color: green;
+  }
+  .danger{
+    align-self: center;
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+  }
+
+  
+  
